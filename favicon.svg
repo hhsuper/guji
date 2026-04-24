@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 圆角背景 -->
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#bg)"/>
+
+  <!-- "估"字 -->
+  <text x="14" y="23"
+        font-family="system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif"
+        font-size="17"
+        font-weight="700"
+        fill="white"
+        text-anchor="middle">估</text>
+
+  <!-- 气泡装饰 - 体现"咕叽"的活泼感 -->
+  <circle cx="26" cy="8" r="4" fill="#fbbf24" opacity="0.95"/>
+  <circle cx="24.5" cy="6" r="1.5" fill="#fef3c7" opacity="0.9"/>
+  <circle cx="28" cy="5" r="2" fill="#fcd34d" opacity="0.7"/>
+</svg>
